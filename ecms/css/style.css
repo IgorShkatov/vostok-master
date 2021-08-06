@@ -1,0 +1,97 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial';	
+}
+
+header
+{
+	background-color: #000;
+	display: flex;
+	justify-content: space-around;
+}
+header a
+{
+	color:#fff;
+	font-size: 20px;
+	padding: 15px 0;
+	display: inline-block;
+}
+
+table
+{
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+table thead
+{
+	background-color: #2196f3;
+}
+
+table tbody tr:nth-child(even)
+{
+	background-color: #bbdefb;
+}
+
+table tbody tr:nth-child(odd)
+{
+	background-color: #e3f2fd;
+}
+
+table td
+{
+	border:1px solid #fff;
+}
+
+.former
+{
+	width: 100%;
+}
+
+.former h1
+{
+	text-align: center;
+}
+
+.former form
+{
+	border-radius: 25px;
+	border:2px solid #000;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px 10px;
+	margin: 0 auto;
+}
+
+.former form label
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+.former form input, .former form select
+{
+	padding: 5px 0;
+}
+
+.former form input, .former form select, .former form select option
+{
+	text-align: center;
+}
+
+.former form input[type="submit"]
+{
+	padding: 5px 0;
+	cursor: pointer;
+	background-color: #3667cd;
+	color: #fff;
+	font-weight: bold;
+}
+
+.products img
+{
+	width: 250px;
+}
